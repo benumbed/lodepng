@@ -42,30 +42,5 @@ make-build
 *.out
 *.app
 
-# SWIG wrappers
-*_wrap.cxx
-
 # Build information (directory should be there, but blank)
 build/*
-src/editor/build/*
-cmake-build*
-
-# Platform-specific (generated) build files 
-CMakeCache.txt
-CMakeFiles
-Makefile
-install_manifest.txt
-CMakeSettings.json
-CppProperties.json
-
-# Nightingale specific file/dirs
-src/**/cs/**/bin
-src/**/cs/**/obj
-src/**/cs/**/packages
-src/**/editor/**/packages
-docs/API*
-*.cache
-__pycache__
-*.egg
-*.swo
-compile_commands.json
